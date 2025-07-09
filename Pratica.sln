@@ -5,6 +5,8 @@ VisualStudioVersion = 17.0.31903.59
 MinimumVisualStudioVersion = 10.0.40219.1
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Pratica", "Pratica\Pratica.csproj", "{EBD5F14E-FD09-49EF-86A8-E2AF9B901DCE}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ExercicioDois", "ExercicioDois\ExercicioDois.csproj", "{EA7ACBAD-0C9F-45AF-AE93-58741457020A}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -27,6 +29,18 @@ Global
 		{EBD5F14E-FD09-49EF-86A8-E2AF9B901DCE}.Release|x64.Build.0 = Release|Any CPU
 		{EBD5F14E-FD09-49EF-86A8-E2AF9B901DCE}.Release|x86.ActiveCfg = Release|Any CPU
 		{EBD5F14E-FD09-49EF-86A8-E2AF9B901DCE}.Release|x86.Build.0 = Release|Any CPU
+		{EA7ACBAD-0C9F-45AF-AE93-58741457020A}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{EA7ACBAD-0C9F-45AF-AE93-58741457020A}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{EA7ACBAD-0C9F-45AF-AE93-58741457020A}.Debug|x64.ActiveCfg = Debug|Any CPU
+		{EA7ACBAD-0C9F-45AF-AE93-58741457020A}.Debug|x64.Build.0 = Debug|Any CPU
+		{EA7ACBAD-0C9F-45AF-AE93-58741457020A}.Debug|x86.ActiveCfg = Debug|Any CPU
+		{EA7ACBAD-0C9F-45AF-AE93-58741457020A}.Debug|x86.Build.0 = Debug|Any CPU
+		{EA7ACBAD-0C9F-45AF-AE93-58741457020A}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{EA7ACBAD-0C9F-45AF-AE93-58741457020A}.Release|Any CPU.Build.0 = Release|Any CPU
+		{EA7ACBAD-0C9F-45AF-AE93-58741457020A}.Release|x64.ActiveCfg = Release|Any CPU
+		{EA7ACBAD-0C9F-45AF-AE93-58741457020A}.Release|x64.Build.0 = Release|Any CPU
+		{EA7ACBAD-0C9F-45AF-AE93-58741457020A}.Release|x86.ActiveCfg = Release|Any CPU
+		{EA7ACBAD-0C9F-45AF-AE93-58741457020A}.Release|x86.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
