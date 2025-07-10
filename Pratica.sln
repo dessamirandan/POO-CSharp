@@ -7,6 +7,8 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Pratica", "Pratica\Pratica.
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ExercicioDois", "ExercicioDois\ExercicioDois.csproj", "{EA7ACBAD-0C9F-45AF-AE93-58741457020A}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "CotacaoDolar", "CotacaoDolar\CotacaoDolar.csproj", "{9746E03F-CDEA-4934-B1A0-15CC67C9447F}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -41,6 +43,18 @@ Global
 		{EA7ACBAD-0C9F-45AF-AE93-58741457020A}.Release|x64.Build.0 = Release|Any CPU
 		{EA7ACBAD-0C9F-45AF-AE93-58741457020A}.Release|x86.ActiveCfg = Release|Any CPU
 		{EA7ACBAD-0C9F-45AF-AE93-58741457020A}.Release|x86.Build.0 = Release|Any CPU
+		{9746E03F-CDEA-4934-B1A0-15CC67C9447F}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{9746E03F-CDEA-4934-B1A0-15CC67C9447F}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{9746E03F-CDEA-4934-B1A0-15CC67C9447F}.Debug|x64.ActiveCfg = Debug|Any CPU
+		{9746E03F-CDEA-4934-B1A0-15CC67C9447F}.Debug|x64.Build.0 = Debug|Any CPU
+		{9746E03F-CDEA-4934-B1A0-15CC67C9447F}.Debug|x86.ActiveCfg = Debug|Any CPU
+		{9746E03F-CDEA-4934-B1A0-15CC67C9447F}.Debug|x86.Build.0 = Debug|Any CPU
+		{9746E03F-CDEA-4934-B1A0-15CC67C9447F}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{9746E03F-CDEA-4934-B1A0-15CC67C9447F}.Release|Any CPU.Build.0 = Release|Any CPU
+		{9746E03F-CDEA-4934-B1A0-15CC67C9447F}.Release|x64.ActiveCfg = Release|Any CPU
+		{9746E03F-CDEA-4934-B1A0-15CC67C9447F}.Release|x64.Build.0 = Release|Any CPU
+		{9746E03F-CDEA-4934-B1A0-15CC67C9447F}.Release|x86.ActiveCfg = Release|Any CPU
+		{9746E03F-CDEA-4934-B1A0-15CC67C9447F}.Release|x86.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
