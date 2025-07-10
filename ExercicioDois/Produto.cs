@@ -8,15 +8,26 @@ namespace ExercicioDois
 {
     public class Produto
     {
+        //atributos
         public string Nome;
         public double Preco;
         public int Quantidade;
 
+        //construtor - Impede que nao seja atribuidos valores aos atributos
+        public Produto(string nome, double preco, int quantidade)
+        {
+            Nome = nome;
+            Preco = preco;
+            Quantidade = quantidade;
+        }
+
+        //Método que retorna valor double
         public double ValorToralEmEstoque()
         {
             return Preco * Quantidade;
         }
 
+        //Método que nao retorna valor = void
         public void AdicionarProdutos(int quantidade)
         {
             Quantidade += quantidade;
@@ -25,6 +36,8 @@ namespace ExercicioDois
         {
             Quantidade -= quantidade;
         }
+
+        //Método muda comportamento de um metodo override
         public override string ToString()
         {
             return Nome

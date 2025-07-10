@@ -1,6 +1,7 @@
 ﻿using System;
 using System.Globalization;
 using System.Security.Cryptography.X509Certificates;
+using System.Web;
 
 namespace ExercicioDois
 {
@@ -8,14 +9,16 @@ namespace ExercicioDois
   {
     static void Main(string[] args)
     {
-      Produto ItemA = new Produto();
 
       Console.Write("Digite o nome do produto a ser adicionado: ");
-      ItemA.Nome = Console.ReadLine();
+      string nome = Console.ReadLine();
       Console.Write("Digite o preço do produto: ");
-      ItemA.Preco = double.Parse(Console.ReadLine());
+      double preco = double.Parse(Console.ReadLine());
       Console.Write("Digite a quantidade do produto: ");
-      ItemA.Quantidade = int.Parse(Console.ReadLine());
+      int quatidade = int.Parse(Console.ReadLine());
+
+      Produto ItemA = new Produto("TV", 500.00, 10);
+
 
       Console.WriteLine("------");
       Console.WriteLine("Dados do produto: " + ItemA);
